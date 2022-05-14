@@ -1,0 +1,161 @@
+/* VARIABLES */
+:root {
+  /* global background color */
+  /* --backgroundColor: #212d3b; */
+  --backgroundColor: #232326;
+
+  /* navbar background color */
+  --navbarBackground: #2a425e;
+
+  /* --cardBackground: #203246; */
+  --cardBackground: #182534;
+  /* --cardBackground: #101923; */
+  /* --cardBackground: #262930; */
+}
+
+
+
+.dark {
+  background-color: var(--backgroundColor);
+  color: white;
+  transition: 0.2s;
+}
+
+
+/* CALENDAR DARK THEME */
+.dark .react-calendar,
+.dark .SelectedWeekExample {
+  border: 3px solid white;
+  background-color: var(--backgroundColor);
+  color: white;
+}
+.dark .react-calendar button {
+  color: white;
+}
+.dark .react-calendar button:hover,
+.dark .SelectedWeekExample .DayPicker-Day:hover {
+  color: black;
+}
+
+
+
+/* FORMS */
+.dark form.form-bg {
+  border: 3px solid white;
+  background-color: var(--backgroundColor);
+}
+
+.dark form select, 
+.dark form input, 
+.dark form textarea {
+  background-color: #4b4a4a;
+  color: white;
+}
+.dark form select option {
+  background-color: var(--backgroundColor);
+  color: white;
+}
+.dark .card {
+  border: 3px solid white;
+  background-color: var(--backgroundColor);
+}
+.dark .invalid-feedback {
+  color: #ff1a1a;
+  font-weight: bold;
+}
+.dark ::placeholder { 
+  color: white;
+}
+.dark select optgroup {
+  background-color: #474545;
+  color: white;
+}
+
+
+/* BUTTONS */
+.dark .btn-dark,
+.dark .btn-secondary {
+  border: 3px solid #d9d9d9;
+}
+
+
+
+/* ORDER CARD and MODAL */
+.dark .order,
+.dark .modal-content {
+  border: 3px solid white;
+  background-color: var(--cardBackground);
+  color: white;
+}
+.dark .order .text-danger,
+.dark .modal-content .text-danger {
+  color: #ff8566 !important;
+}
+.dark .order .text-success,
+.dark .modal-content .text-success {
+  color: #4dff4d !important;
+}
+.dark .order .text-primary,
+.dark .modal-content .text-primary {
+  color: #33ccff !important;
+}
+
+
+
+/* NAVBAR */
+.dark nav {
+  background-color: var(--navbarBackground) !important;
+  border-bottom: 3px solid #d9d9d9;
+}
+.dark nav button, 
+.dark nav .navbar-brand,
+.dark nav a.logout,
+.dark nav a.login {
+  background-color: #203246 !important;
+  color: white !important;
+}
+.dark nav button.navbar-toggler {
+  border: 3px solid white;
+  background-color: #c2c2a3 !important;
+}
+.dark nav .nav-item .nav-link {
+  background-color: var(--navbarBackground);
+  color: white !important;
+}
+
+
+
+/* TABLE */
+.dark table,
+.dark table th,
+.dark table td {
+  border: 3px solid #bfbfbf;
+}
+
+
+
+/* TABS IN USERS PAGE */
+.dark ul.nav-tabs li a {
+  color: white;
+}
+/* END OF TABS IN USERS PAGE */
+
+
+
+/* Jumbotron */
+.dark .jumbotron {
+  background-color: var(--backgroundColor);
+  border: 2px solid white;
+}
+/* END OF Jumbotron */
+
+
+
+/* BORDER LINES IN FORMS */
+.dark .border-bottom {
+  border-color: #bfbfbf;
+}
+.dark .border-bottom-red {
+  border-color: #ff8566;
+}
+/* END OF BORDER LINES IN FORMS */
