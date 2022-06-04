@@ -1,4 +1,4 @@
-Web app <Pro Team> for disinfector company. Written in MERN-stack (MongoDB, Express, React, NodeJS)
+Web app <Pro Team> for disinfection company. Written in MERN-stack (MongoDB, Express, React, NodeJS)
   
 The app is used to manage the company: 
 - keep track of incoming orders, 
