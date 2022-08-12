@@ -11,7 +11,7 @@ Link to the app to play around: https://proteam-for-md.herokuapp.com/
 
 Sample users:
 
-Admin login: admin@gmail.com password: admin12
+Admin login: admin@gmail.com password: 123456
 
 Operator login: operator@gmail.com password: operator
 
